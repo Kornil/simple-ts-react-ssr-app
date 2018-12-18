@@ -1,0 +1,10 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "interface-name": [true, "never-prefix"],
+    "jsx-boolean-value": ["error", "never"],
+    "jsx-no-multiline-js": ["error", "never"],
+    "forin": false,
+    "member-access": [true, "no-public"]
+  }
+}
