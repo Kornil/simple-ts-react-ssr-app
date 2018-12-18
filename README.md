@@ -1,8 +1,18 @@
-# simple-ts-react-app
+# simple-ts-react-ssr-app
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/Kornil/simple-ts-react-app.svg)](https://greenkeeper.io/)
 
-React starter project written in typescript, includes redux, webpack, babel, sass, jest & enzyme.
+SSR React starter project written in typescript, includes, webpack, babel, jest & enzyme.
+
+
+## Commands
+
+- `npm run start--dev` run both server and client dev
+- `npm run build` build bundle (it is recommended to build the bundle first once started the project to create the initial `server.js` file)
+- `npm start` start the project (requires `npm run build` first)
+- `npm run test` run tests (both back and front end)
+- `npm run type-check` run typescript' manual typecheck
+- `npm run tslint` lint project 
 
 
 ## Project structure
