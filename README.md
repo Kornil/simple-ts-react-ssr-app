@@ -7,6 +7,16 @@ SSR React starter project written in typescript, includes, webpack, babel, jest 
 
 ## Commands
 
+Initialize it locally:
+
+```
+$ npx simple-ts-react-ssr-app myFolder
+```
+
+Will create a copy of the project inside `myFolder`.
+
+---
+
 - `npm run start--dev` run both server and client dev
 - `npm run build` build bundle (it is recommended to build the bundle first once started the project to create the initial `server.js` file)
 - `npm start` start the project (requires `npm run build` first)
